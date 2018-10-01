@@ -40,7 +40,7 @@ pauseButton.addEventListener("click", function() {
 
 // CONTACT FORM STUFF
 function processSubmitEmailRequest(){
-    var address = "fedor.bozik@itvkurze.sk";
+    var address = "fedor.bozik@outlook.com";
     var subject = document.getElementById("subject").value;
     var body = document.getElementById("message").value;
 
