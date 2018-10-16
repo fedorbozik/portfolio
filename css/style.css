@@ -229,9 +229,9 @@ i {
 }
 video {
     position: relative;
-    min-width: 100%;
+    max-width: 100%;
     min-height: 100%;
-    background: url('../img/bg-video-thumbnail-poster.png') no-repeat;
+    background: url('../img/bg-video-bootstrap-showcase-screenshot.jpg') no-repeat;
     background-size: cover;
     transition: 0.4s opacity;
 }
