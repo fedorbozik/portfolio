@@ -610,6 +610,7 @@ body {
         transition: height 1s ease;
     }
     .slide {
+        display: none;
         list-style: none;
         text-decoration: none;
         clear: both;
