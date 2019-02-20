@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="704" column="39" selection-start-line="704" selection-start-column="39" selection-end-line="704" selection-end-column="39" />
+            <state relative-caret-position="418">
+              <caret line="124" column="19" lean-forward="true" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -156,7 +156,7 @@
       <workItem from="1538581281497" duration="636000" />
       <workItem from="1539701928594" duration="9132000" />
       <workItem from="1544893111725" duration="41000" />
-      <workItem from="1550669996592" duration="10567000" />
+      <workItem from="1550669996592" duration="10760000" />
     </task>
     <task id="LOCAL-00001" summary="messenger social button connection removed">
       <created>1538391283811</created>
@@ -277,11 +277,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550693863972</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="mobile menu update v4">
+      <created>1550694296638</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550694296638</updated>
+    </task>
+    <task id="LOCAL-00019" summary="mobile menu update v5">
+      <created>1550694408060</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1550694408060</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23557000" />
+    <option name="totallyTimeSpent" value="23750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -327,7 +341,9 @@
     <MESSAGE value="mobile menu update" />
     <MESSAGE value="mobile menu update v2" />
     <MESSAGE value="mobile menu update v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile menu update v3" />
+    <MESSAGE value="mobile menu update v4" />
+    <MESSAGE value="mobile menu update v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile menu update v5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/main.js">
@@ -349,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="704" column="39" selection-start-line="704" selection-start-column="39" selection-end-line="704" selection-end-column="39" />
+        <state relative-caret-position="418">
+          <caret line="124" column="19" lean-forward="true" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
         </state>
       </provider>
     </entry>
