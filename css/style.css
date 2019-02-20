@@ -898,7 +898,7 @@ body {
         margin: -8em auto 4em auto;
     }
     .timeline-item:first-child {
-        font-size: 16px;
+        font-size: 26px;
     }
     .codepen-embed-div {
         display: none;
@@ -915,7 +915,7 @@ body {
         margin: -7em auto 1em auto;
     }
     .timeline-item h1 {
-        font-size: 22px;
+        font-size: 26px;
     }
     .skills-section,
     .experience-section {
@@ -966,7 +966,7 @@ body {
         margin: -7.4em auto 1.5em auto;
     }
     .timeline-item:first-child {
-        font-size: 13px;
+        font-size: 32px;
     }
     .skills-section,
     .experience-section {

@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="124" column="19" lean-forward="true" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+            <state relative-caret-position="501">
+              <caret line="917" column="24" lean-forward="true" selection-start-line="917" selection-start-column="24" selection-end-line="917" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -58,6 +58,7 @@
       <find>slide</find>
       <find>label +</find>
       <find>footer-co</find>
+      <find>time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,7 +157,7 @@
       <workItem from="1538581281497" duration="636000" />
       <workItem from="1539701928594" duration="9132000" />
       <workItem from="1544893111725" duration="41000" />
-      <workItem from="1550669996592" duration="10760000" />
+      <workItem from="1550669996592" duration="11771000" />
     </task>
     <task id="LOCAL-00001" summary="messenger social button connection removed">
       <created>1538391283811</created>
@@ -291,11 +292,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550694408060</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="mobile menu update v6">
+      <created>1550694484161</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1550694484161</updated>
+    </task>
+    <task id="LOCAL-00021" summary="tinyfied images">
+      <created>1550694880518</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1550694880518</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23750000" />
+    <option name="totallyTimeSpent" value="24761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -343,7 +358,9 @@
     <MESSAGE value="mobile menu update v3" />
     <MESSAGE value="mobile menu update v4" />
     <MESSAGE value="mobile menu update v5" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile menu update v5" />
+    <MESSAGE value="mobile menu update v6" />
+    <MESSAGE value="tinyfied images" />
+    <option name="LAST_COMMIT_MESSAGE" value="tinyfied images" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/main.js">
@@ -365,8 +382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="124" column="19" lean-forward="true" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+        <state relative-caret-position="501">
+          <caret line="917" column="24" lean-forward="true" selection-start-line="917" selection-start-column="24" selection-end-line="917" selection-end-column="24" />
         </state>
       </provider>
     </entry>
