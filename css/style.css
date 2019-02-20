@@ -433,8 +433,8 @@ body {
 .social {
     position: fixed;
     height: auto;
-    left: 96%;
-    top: 60%;
+    right: 15px;
+    bottom: 50px;
     z-index: 1000;
     display: flex;
     flex-direction: column;
