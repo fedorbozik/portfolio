@@ -431,7 +431,7 @@ body {
 }
 /* SOCIAL BUTTONS */
 .social {
-    position: fixed;
+    position: absolute;
     height: auto;
     right: 15px;
     bottom: 50px;
@@ -872,7 +872,7 @@ body {
         margin: -7em auto 2em auto;
     }
     .social {
-        right: 0;
+        right: 0px;
         bottom: 25px;
     }
 }
