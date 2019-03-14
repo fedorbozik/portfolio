@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4301">
-              <caret line="253" column="42" selection-start-line="253" selection-start-column="42" selection-end-line="253" selection-end-column="42" />
+            <state relative-caret-position="641">
+              <caret line="260" column="40" lean-forward="true" selection-start-line="260" selection-start-column="40" selection-end-line="260" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -160,7 +160,7 @@
       <workItem from="1544893111725" duration="41000" />
       <workItem from="1550669996592" duration="13292000" />
       <workItem from="1552481410352" duration="802000" />
-      <workItem from="1552590763279" duration="685000" />
+      <workItem from="1552590763279" duration="1254000" />
     </task>
     <task id="LOCAL-00001" summary="messenger social button connection removed">
       <created>1538391283811</created>
@@ -337,11 +337,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552590835391</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="copyright updt">
+      <created>1552591918386</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1552591918386</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27769000" />
+    <option name="totallyTimeSpent" value="28338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -395,13 +402,14 @@
     <MESSAGE value="visual fixes v2" />
     <MESSAGE value="text fix" />
     <MESSAGE value="HJ integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="HJ integration" />
+    <MESSAGE value="copyright updt" />
+    <option name="LAST_COMMIT_MESSAGE" value="copyright updt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4301">
-          <caret line="253" column="42" selection-start-line="253" selection-start-column="42" selection-end-line="253" selection-end-column="42" />
+        <state relative-caret-position="641">
+          <caret line="260" column="40" lean-forward="true" selection-start-line="260" selection-start-column="40" selection-end-line="260" selection-end-column="40" />
         </state>
       </provider>
     </entry>
