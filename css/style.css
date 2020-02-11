@@ -454,16 +454,14 @@ textarea:hover {
 .footer h3 {
   text-align: center;
 }
-.copyright-icon {
-  /*font-size: 32px;*/
-}
+
 /* BECAUSE OF THE FIXED SOCIAL ICONS */
 body {
   overflow-x: hidden;
 }
 /* SOCIAL BUTTONS */
 .social {
-  position: sticky;
+  position: fixed;
   height: auto;
   right: 15px;
   bottom: 50px;
