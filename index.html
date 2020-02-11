@@ -1,263 +1,507 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Portfolio | Fedor Božík</title>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,target-densitydpi=device-dpi, user-scalable=no" />
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <!--<link rel="stylesheet" type="text/css" href="css/aos.css">-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <head>
+    <title>Portfolio | Fedor Božík</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,target-densitydpi=device-dpi, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+      integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
 
     <!-- Hotjar Tracking Code for https://fedorbozik.github.io/portfolio/ -->
     <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:1238533,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+      (function(h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function() {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 1238533, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
     </script>
-</head>
+  </head>
 
-<body>
-	<header>
-		<div class="nav-bar">
-			<div class="nav-container">
-				<nav>
-					<ul class="navigation">
-                        <li class="nav-initials"><a href="index.html"><strong class="initials">FB</strong></a></li>
-						<li class="nav-item"><a data-easing="easeInOutQuad" href="#contact"><i class="fas fa-paper-plane"></i><strong>Contact</strong></a></li>
-						<li class="nav-item"><a data-easing="easeInOutQuad" href="#skills"><i class="fas fa-code"></i><strong>Skills</strong></a></li>
-						<li class="nav-item"><a data-easing="easeInOutQuad" href="#experience"><i class="fas fa-bug"></i><strong>Experience</strong></a></li>
-						<li class="nav-item"><a data-easing="easeInOutQuad" href="#home"><i class="fas fa-home"></i><strong>Home</strong></a></li>
-					</ul>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <div class="nav-container">
+          <nav>
+            <ul class="navigation">
+              <li class="nav-initials">
+                <a href="index.html"><strong class="initials">FB</strong></a>
+              </li>
+              <li class="nav-item">
+                <a data-easing="easeInOutQuad" href="#contact"
+                  ><i class="fas fa-paper-plane"></i><strong>Contact</strong></a
+                >
+              </li>
+              <li class="nav-item">
+                <a data-easing="easeInOutQuad" href="#skills"
+                  ><i class="fas fa-code"></i><strong>Skills</strong></a
+                >
+              </li>
+              <li class="nav-item">
+                <a data-easing="easeInOutQuad" href="#experience"
+                  ><i class="fas fa-bug"></i><strong>Experience</strong></a
+                >
+              </li>
+              <li class="nav-item">
+                <a data-easing="easeInOutQuad" href="#home"
+                  ><i class="fas fa-home"></i><strong>Home</strong></a
+                >
+              </li>
+            </ul>
 
-                    <div class="menu">
-                        <input class="menu" id="menu" type="checkbox">
-                        <label for="menu"></label>
+            <div class="menu">
+              <input class="menu" id="menu" type="checkbox" />
+              <label for="menu"></label>
 
-                        <ul class="slide">
-                            <li><a data-easing="easeInOutQuad" href="#home"><i class="fas fa-home"></i><strong>Home</strong></a></li>
-                            <li><a data-easing="easeInOutQuad" href="#experience"><i class="fas fa-bug"></i><strong>Experience</strong></a></li>
-                            <li><a data-easing="easeInOutQuad" href="#skills"><i class="fas fa-code"></i><strong>Skills</strong></a></li>
-                            <li><a data-easing="easeInOutQuad" href="#contact"><i class="fas fa-paper-plane"></i><strong>Contact</strong></a></li>
-                        </ul>
-                    </div>
-				</nav>
-			</div>
-		</div>
-	</header>
-
-	<main id="home" class="main-content code-background">
-        <picture>
-            <source media="(max-width: 640px)" srcset="img/macbook-pro-desk-640x384.jpeg">
-            <source media="(max-width: 1280px)" srcset="img/macbook-pro-desk-1280x768.jpeg">
-            <source media="(max-width: 1920px)" srcset="img/macbook-pro-desk-1920x1153.jpeg">
-            <source media="(min-width: 3840px)" srcset="img/macbook-pro-desk-4102x2464.jpeg">
-            <img src="img/macbook-pro-desk-4102x2464.jpeg" alt="intro-image" style="max-width:100%;height:auto;">
-        </picture>
-
-        <div class="intro">
-            <h1 class="intro-text">Portfolio | Fedor Božík</h1>
-        </div>
-
-        <h2 class="intro-about">I'm an aspiring young developer, programmer and overall an IT guy, who wants to make a good career in this business and learn as much as possible about everything that web, coding, and other stuff entails</h2>
-
-        <section class="experience-section">
-            <div id="experience" class="container">
-                <div class="timeline-item">
-                    <h1>My experience</h1>
-                </div>
-                <div class="timeline-item" date-is='November 2018 to February 2019'>
-                    <h1>Full-stack Web Developer at Exponea</h1>
-                    <p>Main resposibilities and tasks</p>
-                    <ul>
-                        <li>
-                            <p>Translate business requirements into elegant and user friendly designs while working closely with the marketing team</p>
-                        </li>
-                        <li>
-                            <p>Transfer graphic designs into responsive HTML and CSS code with respect to W3C and CSS standards</p>
-                        </li>
-                        <li>
-                            <p>Create interactive and animated websites, enhancement of corporate website, development of new landing pages</p>
-                        </li>
-                        <li>
-                            <p>Implement website changes to support conversion goals, create websites with respect to responsive web development</p>
-                        </li>
-                        <li>
-                            <p>Administrate WordPress for the exponea[dot]com website and its subdomains and implement updates to achieve better conversions on a daily basis</p>
-                        </li>
-                        <li>
-                            <p>If you want more information about this, please check my LinkedIn profile for more information and references</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="timeline-item" date-is='July to October 2018'>
-                    <h1>Summer Internship at AT&amp;T as a Web design Engineer</h1>
-                    <p>My roles and responsibilities:</p>
-                    <ul>
-                        <li>
-                            <p>Design and author web-enabled applications</p>
-                        </li>
-                        <li>
-                            <p>Design presentation and application logic layers of said applications</p>
-                        </li>
-                        <li>
-                            <p>Troubleshooting, debugging and testing code, documenting code and requirements for deployment to production</p>
-                        </li>
-                    </ul>
-                    <p>Key Competencies and Skills which I gained more experience in:</p>
-                    <ul>
-                        <li>
-                            <p>Advanced knowledge of HTML, CSS, and JavaScript</p>
-                        </li>
-                        <li>
-                            <p>Knowledge of MVC (model/view/controller) web frameworks and of JSON and API design</p>
-                        </li>
-                        <li>
-                            <p>Ability to multitask and work alone or in a team environment</p>
-                        </li>
-                        <li>
-                            <p>Ability to understand the technical design/architecture of web applications</p>
-                        </li>
-                        <li>
-                            <p>Day to day use of English written and spoken</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="timeline-item" date-is='July to October 2017'>
-                    <h1>Summer Internship at AT&amp;T as a PERL programming engineer</h1>
-                    <p>Recording existing programs between shell script or PHP into PERL</p>
-                    <ul>
-                        <li>
-                            <p>Enhancement of existing programs written in PERL</p>
-                        </li>
-                        <li>
-                            <p>Troubleshooting, debugging and testing code</p>
-                        </li>
-                        <li>
-                            <p>Documenting code changes and requirements for deployment of programs to the production environment</p>
-                        </li>
-                        <li>
-                            <p>Designing, developing and recommending ways to improve code</p>
-                        </li>
-                        <li>
-                            <p>Obtained experience in RedHat Linux, PERL, shell scripting and PHP as well as experience with UNIX systems</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="timeline-item" date-is='2017'>
-                    <h1>Simple arcade game made with some HTML, CSS and a lot of JavaScript</h1>
-                    <p>
-                       It was a project for school, finished after a whole semester of learning how to build interactive applications and how to interact with them, and learning JavaScript basically from scratch
-                    </p>
-                    <p>
-                       You can see the game below this text, it is embedded from Codepen to allow it to run only after clicking on it and it is best viewed at a FullHD or 1920x1080 resolution screen, and if you want it not to be shifted and transformed to the background's image of a laptop, then please resize your browser to a lower resolution such as 1280x720 or also known as HD, or view it on a smaller screen or device, then it will be just normal size
-                    </p>
-                </div>
+              <ul class="slide">
+                <li>
+                  <a data-easing="easeInOutQuad" href="#home"
+                    ><i class="fas fa-home"></i><strong>Home</strong></a
+                  >
+                </li>
+                <li>
+                  <a data-easing="easeInOutQuad" href="#experience"
+                    ><i class="fas fa-bug"></i><strong>Experience</strong></a
+                  >
+                </li>
+                <li>
+                  <a data-easing="easeInOutQuad" href="#skills"
+                    ><i class="fas fa-code"></i><strong>Skills</strong></a
+                  >
+                </li>
+                <li>
+                  <a data-easing="easeInOutQuad" href="#contact"
+                    ><i class="fas fa-paper-plane"></i
+                    ><strong>Contact</strong></a
+                  >
+                </li>
+              </ul>
             </div>
-        </section>
-
-        <picture>
-            <source media="(max-width: 640px)" srcset="img/business-coffee-communication-640x426.jpeg">
-            <source media="(max-width: 1280px)" srcset="img/business-coffee-communication-1280x853.jpeg">
-            <source media="(max-width: 1920px)" srcset="img/business-coffee-communication-1920x1080.jpeg">
-            <source media="(min-width: 3840px)" srcset="img/business-coffee-communication-5472x3648.jpg">
-            <img src="img/business-coffee-communication-5472x3648.jpg" alt="intro-image" style="max-width:100%; height:auto;">
-        </picture>
-
-        <div class="codepen-embed-div">
-            <p data-height="564" data-theme-id="light" data-slug-hash="wjdKKM" data-default-tab="result" data-user="bozik" data-embed-version="2" data-pen-title="FB_Game_in_JS - PONG'd" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/bozik/pen/wjdKKM/">FB_Game_in_JS - PONG'd</a> by Fedor Božík (<a href="https://codepen.io/bozik">@bozik</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+          </nav>
         </div>
+      </div>
+    </header>
 
+    <main id="home" class="main-content code-background">
+      <picture>
+        <source
+          media="(max-width: 640px)"
+          srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-640x384.jpeg?v=1581426319551"
+        />
+        <source
+          media="(max-width: 1280px)"
+          srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-1280x768.jpeg?v=1581426320233"
+        />
+        <source
+          media="(max-width: 1920px)"
+          srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-1920x1153.jpeg?v=1581426319490"
+        />
+        <source
+          media="(min-width: 3840px)"
+          srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-4102x2464.jpeg?v=1581426319750"
+        />
+        <img
+          src="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-4102x2464.jpeg?v=1581426319750"
+          alt="intro-image"
+          style="max-width:100%;height:auto;"
+        />
+      </picture>
 
-        <section class="skills-section">
-            <div id="skills" class="container">
-                <div class="timeline-item">
-                    <h1>My skills</h1>
-                </div>
-                <div class="timeline-item" date-is='Most recent'>
-                    <h1>HTML, CSS, JS and other web design and development experience</h1>
-                    <p>I have successfully finished a Front-End Developer learning course from the folks at ITvKurze, with a certificate and a couple of projects to show off the work put into the whole course</p>
-                    <ul>
-                        <li>
-                            <p>Developing projects and webpages in my own time too, always trying to learn more about the new technologies</p>
-                        </li>
-                        <li>
-                            <p>Going to continue learning and want to learn about frameworks such as React, Node or Angular</p>
-                        </li>
-                        <li>
-                            <p>I have worked for about 2 years on HTML, CSS</p>
-                        </li>
-                        <li>
-                            <p>And about 6 months worth of PHP, JS and PERL</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="timeline-item" date-is='2017'>
-                    <h1>Development and coding in pure C for school</h1>
-                    <p>Working on various projects and team projects for school, learned C from scratch and reached a post-beginner skillset</p>
-                    <ul>
-                        <li>
-                            <p>I have got about a year worth of C development experience from school and some of my work is on my Github profile</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="timeline-item" date-is='Latest project'>
-                    <h1>Bootstrap Dashboard demo anonymized project - HTML, CSS, JS based on the framework Bootstrap</h1>
-                    <p>Project from ITvKurze based on the framework Bootstrap used for building a responsive and elegant dashboard which could show various users, information, graphs or statistics</p>
-                    <p>Under this section you can see a video showing this project - click anywhere on the video to pause - on mobile please click on the screenshot to start the video (mobile browsers won't autoplay video by default)</p>
-                </div>
-            </div>
-        </section>
+      <div class="intro">
+        <h1 class="intro-text">Portfolio | Fedor Božík</h1>
+      </div>
 
-        <div class="bg-video-section">
-            <video poster="img/bg-video-thumbnail-poster.png" id="bgvid" playsinline autoplay muted loop>
-                <!--
-                - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.     -->
-                <source src="vid/bg-video-bootstrap-showcase-1080-webm.webm" type="video/webm">
-                <source src="vid/bg-video-bootstrap-showcase-1080-mp4.mp4" type="video/mp4">
-                <source src="vid/bg-video-bootstrap-showcase-1080-hevc.mp4" type="video/mp4">
-            </video>
+      <h2 class="intro-about">
+        I'm an aspiring young developer, programmer and overall an IT guy, who
+        wants to make a good career in this business and learn as much as
+        possible about everything that web, coding, and other stuff entails
+      </h2>
+
+      <section class="experience-section">
+        <div id="experience" class="container">
+          <div class="timeline-item">
+            <h1>My experience</h1>
+          </div>
+          <div class="timeline-item" date-is="November 2018 to February 2019">
+            <h1>Full-stack Web Developer at Exponea</h1>
+            <p>Main resposibilities and tasks</p>
+            <ul>
+              <li>
+                <p>
+                  Translate business requirements into elegant and user friendly
+                  designs while working closely with the marketing team
+                </p>
+              </li>
+              <li>
+                <p>
+                  Transfer graphic designs into responsive HTML and CSS code
+                  with respect to W3C and CSS standards
+                </p>
+              </li>
+              <li>
+                <p>
+                  Create interactive and animated websites, enhancement of
+                  corporate website, development of new landing pages
+                </p>
+              </li>
+              <li>
+                <p>
+                  Implement website changes to support conversion goals, create
+                  websites with respect to responsive web development
+                </p>
+              </li>
+              <li>
+                <p>
+                  Administrate WordPress for the exponea[dot]com website and its
+                  subdomains and implement updates to achieve better conversions
+                  on a daily basis
+                </p>
+              </li>
+              <li>
+                <p>
+                  If you want more information about this, please check my
+                  LinkedIn profile for more information and references
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item" date-is="July to October 2018">
+            <h1>Summer Internship at AT&amp;T as a Web design Engineer</h1>
+            <p>My roles and responsibilities:</p>
+            <ul>
+              <li>
+                <p>Design and author web-enabled applications</p>
+              </li>
+              <li>
+                <p>
+                  Design presentation and application logic layers of said
+                  applications
+                </p>
+              </li>
+              <li>
+                <p>
+                  Troubleshooting, debugging and testing code, documenting code
+                  and requirements for deployment to production
+                </p>
+              </li>
+            </ul>
+            <p>
+              Key Competencies and Skills which I gained more experience in:
+            </p>
+            <ul>
+              <li>
+                <p>Advanced knowledge of HTML, CSS, and JavaScript</p>
+              </li>
+              <li>
+                <p>
+                  Knowledge of MVC (model/view/controller) web frameworks and of
+                  JSON and API design
+                </p>
+              </li>
+              <li>
+                <p>
+                  Ability to multitask and work alone or in a team environment
+                </p>
+              </li>
+              <li>
+                <p>
+                  Ability to understand the technical design/architecture of web
+                  applications
+                </p>
+              </li>
+              <li>
+                <p>Day to day use of English written and spoken</p>
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item" date-is="July to October 2017">
+            <h1>
+              Summer Internship at AT&amp;T as a PERL programming engineer
+            </h1>
+            <p>
+              Recording existing programs between shell script or PHP into PERL
+            </p>
+            <ul>
+              <li>
+                <p>Enhancement of existing programs written in PERL</p>
+              </li>
+              <li>
+                <p>Troubleshooting, debugging and testing code</p>
+              </li>
+              <li>
+                <p>
+                  Documenting code changes and requirements for deployment of
+                  programs to the production environment
+                </p>
+              </li>
+              <li>
+                <p>
+                  Designing, developing and recommending ways to improve code
+                </p>
+              </li>
+              <li>
+                <p>
+                  Obtained experience in RedHat Linux, PERL, shell scripting and
+                  PHP as well as experience with UNIX systems
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item" date-is="2017">
+            <h1>
+              Simple arcade game made with some HTML, CSS and a lot of
+              JavaScript
+            </h1>
+            <p>
+              It was a project for school, finished after a whole semester of
+              learning how to build interactive applications and how to interact
+              with them, and learning JavaScript basically from scratch
+            </p>
+            <p>
+              You can see the game below this text, it is embedded from Codepen
+              to allow it to run only after clicking on it and it is best viewed
+              at a FullHD or 1920x1080 resolution screen, and if you want it not
+              to be shifted and transformed to the background's image of a
+              laptop, then please resize your browser to a lower resolution such
+              as 1280x720 or also known as HD, or view it on a smaller screen or
+              device, then it will be just normal size
+            </p>
+          </div>
         </div>
+      </section>
 
-        <section id="contact" class="contact-form">
-            <h1>CONTACT FORM</h1>
+      <picture>
+        <source
+          media="(max-width: 640px)"
+          srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fbusiness-coffee-communication-640x426.jpeg?v=1581426318780"
+        />
+        <source
+          media="(max-width: 1280px)"
+          srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fbusiness-coffee-communication-1280x853.jpeg?v=1581426319430"
+        />
+        <source
+          media="(max-width: 1920px)"
+          srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fbusiness-coffee-communication-1920x1080.jpeg?v=1581426319140"
+        />
+        <source
+          media="(min-width: 3840px)"
+          srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fbusiness-coffee-communication-5472x3648.jpg?v=1581426319293"
+        />
+        <img
+          src="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fbusiness-coffee-communication-5472x3648.jpg?v=1581426319293"
+          alt="intro-image"
+          style="max-width:100%; height:auto;"
+        />
+      </picture>
 
-            <form id="form" class="topBefore">
-                <input name="subject" id="subject" type="text" placeholder="Subject">
-                <textarea name="message" id="message" placeholder="Message"></textarea>
-                <input id="submit" onclick="processSubmitEmailRequest();" type="submit" value="SEND MESSAGE">
-            </form>
-        </section>
+      <div class="codepen-embed-div">
+        <p
+          data-height="564"
+          data-theme-id="light"
+          data-slug-hash="wjdKKM"
+          data-default-tab="result"
+          data-user="bozik"
+          data-embed-version="2"
+          data-pen-title="FB_Game_in_JS - PONG'd"
+          data-preview="true"
+          class="codepen"
+        >
+          See the Pen
+          <a href="https://codepen.io/bozik/pen/wjdKKM/"
+            >FB_Game_in_JS - PONG'd</a
+          >
+          by Fedor Božík (<a href="https://codepen.io/bozik">@bozik</a>) on
+          <a href="https://codepen.io">CodePen</a>.
+        </p>
+        <script
+          async
+          src="https://static.codepen.io/assets/embed/ei.js"
+        ></script>
+      </div>
 
+      <section class="skills-section">
+        <div id="skills" class="container">
+          <div class="timeline-item">
+            <h1>My skills</h1>
+          </div>
+          <div class="timeline-item" date-is="Most recent">
+            <h1>
+              HTML, CSS, JS and other web design and development experience
+            </h1>
+            <p>
+              I have successfully finished a Front-End Developer learning course
+              from the folks at ITvKurze, with a certificate and a couple of
+              projects to show off the work put into the whole course
+            </p>
+            <ul>
+              <li>
+                <p>
+                  Developing projects and webpages in my own time too, always
+                  trying to learn more about the new technologies
+                </p>
+              </li>
+              <li>
+                <p>
+                  Going to continue learning and want to learn about frameworks
+                  such as React, Node or Angular
+                </p>
+              </li>
+              <li>
+                <p>I have worked for about 2 years on HTML, CSS</p>
+              </li>
+              <li>
+                <p>And about 6 months worth of PHP, JS and PERL</p>
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item" date-is="2017">
+            <h1>Development and coding in pure C for school</h1>
+            <p>
+              Working on various projects and team projects for school, learned
+              C from scratch and reached a post-beginner skillset
+            </p>
+            <ul>
+              <li>
+                <p>
+                  I have got about a year worth of C development experience from
+                  school and some of my work is on my Github profile
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="timeline-item" date-is="Latest project">
+            <h1>
+              Bootstrap Dashboard demo anonymized project - HTML, CSS, JS based
+              on the framework Bootstrap
+            </h1>
+            <p>
+              Project from ITvKurze based on the framework Bootstrap used for
+              building a responsive and elegant dashboard which could show
+              various users, information, graphs or statistics
+            </p>
+            <p>
+              Under this section you can see a video showing this project -
+              click anywhere on the video to pause - on mobile please click on
+              the screenshot to start the video (mobile browsers won't autoplay
+              video by default)
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="bg-video-section">
+        <video
+          poster="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fbg-video-bootstrap-showcase-screenshot.jpg?v=1581426319186"
+          id="bgvid"
+          playsinline
+          autoplay
+          muted
+          loop
+        >
+          <source
+            src="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fbg-video-bootstrap-showcase-1080-webm.webm?v=1581426248945"
+            type="video/webm"
+          />
+          <source
+            src="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fbg-video-bootstrap-showcase-1080-mp4.mp4?v=1581426246656"
+            type="video/mp4"
+          />
+          <source
+            src="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fbg-video-bootstrap-showcase-1080-hevc.mp4?v=1581426254888"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+
+      <section id="contact" class="contact-form">
+        <h1>CONTACT FORM</h1>
+
+        <form id="form" class="topBefore">
+          <input
+            name="subject"
+            id="subject"
+            type="text"
+            placeholder="Subject"
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Message"
+          ></textarea>
+          <input
+            id="submit"
+            onclick="processSubmitEmailRequest();"
+            type="submit"
+            value="SEND MESSAGE"
+          />
+        </form>
+      </section>
     </main>
 
-
     <div class="social">
-        <a href="mailto:fedor.bozik@outlook.com " class="social__button mail"><i class="far fa-envelope"></i></a>
-        <a target="_blank" href="https://join.skype.com/invite/GiJtiEEI7jFY" class="social__button skype"><i class="fab fa-skype"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/fedorbozik" class="social__button linkedin"><i class="fab fa-linkedin-in"></i></a>
-        <a target="_blank" href="https://github.com/fedorbozik" class="social__button github"><i class="fab fa-github"></i></a>
-        <a target="_blank" href="https://codepen.io/bozik/" class="social__button codepen"><i class="fab fa-codepen"></i></a>
+      <a href="mailto:fedor.bozik@outlook.com " class="social__button mail"
+        ><i class="far fa-envelope"></i
+      ></a>
+      <a
+        target="_blank"
+        href="https://join.skype.com/invite/GiJtiEEI7jFY"
+        class="social__button skype"
+        ><i class="fab fa-skype"></i
+      ></a>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/fedorbozik"
+        class="social__button linkedin"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a
+        target="_blank"
+        href="https://github.com/fedorbozik"
+        class="social__button github"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a
+        target="_blank"
+        href="https://codepen.io/bozik/"
+        class="social__button codepen"
+        ><i class="fab fa-codepen"></i
+      ></a>
     </div>
 
-	<footer>
-        <div class="footer-content">
-            <h3> &copy; Fedor Božík | 2019</h3>
-        </div>
+    <footer>
+      <div class="footer-content">
+        <h3>&copy; Fedor Božík | 2019</h3>
+      </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js"></script>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
