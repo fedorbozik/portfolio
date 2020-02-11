@@ -222,7 +222,7 @@ i {
 }
 video {
     position: relative;
-    max-width: 100%;
+    width: 100%;
     min-height: 100%;
     /*background: url('../img/bg-video-bootstrap-showcase-screenshot.jpg') no-repeat;*/
     /*background-size: cover;*/
