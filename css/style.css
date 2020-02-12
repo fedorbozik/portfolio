@@ -1,19 +1,32 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700&display=swap');
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 /* GENERAL */
 html,
 html a {
+  --background: hsl(210, 20%, 12%);
+  --text-color-normal: hsl(210, 10%, 62%);
+  --text-color-light: hsl(210, 15%, 35%);
+  --text-color-richer: hsl(210, 50%, 72%);
+  --text-color-highlight: hsl(25, 70%, 45%);
+
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 
 body {
   font-weight: 400;
+  color: var(--text-color-normal);
+  background-color: var(--background);
   font-family: "Quicksand", sans-serif; }
+
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
 
 a { text-decoration: none; }
 
@@ -204,7 +217,7 @@ picture img {
 .timeline-item {
   padding: 3em 2em 2em;
   position: relative;
-  color: #000000;
+  color: inherit;
   border-left: 2px solid rgba(0, 0, 0, 0.3);
 }
 .timeline-item p {
@@ -257,6 +270,7 @@ picture img {
 .timeline-item:first-child::after {
   top: 50%;
 }
+
 .timeline-item:first-child {
   font-size: 40px;
   padding: 20px;
@@ -282,19 +296,17 @@ picture img {
     )
     1 100%;
 }
-.code-background {
-  background: #fff url("https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fcode-background-inverted.png?v=1581426318934") center center/auto
-    20% repeat-y;
-  /*background-color: rgb(150, 0, 0);
-    background-image: url("../img/code-background.png");
-    background-repeat: repeat-y;
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: auto 100%;*/
-}
+
+/*.code-background {*/
+/*    background-image: url("https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fcode-background.png?v=1581426319348");*/
+/*    background-repeat: repeat-y;*/
+/*    background-attachment: scroll;*/
+/*    background-clip: border-box;*/
+/*    background-origin: padding-box;*/
+/*    background-position-x: center;*/
+/*    background-position-y: center;*/
+/*    background-size: auto 100%;*/
+/*}*/
 
 /* EXPERIENCE SECTION */
 #experience-section .experience {
