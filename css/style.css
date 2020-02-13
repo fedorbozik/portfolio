@@ -17,7 +17,7 @@ html a {
 
 body {
   font-weight: 400;
-  color: var(--text-color-normal);
+  color: var(--text-color-richer);
   background-color: var(--background);
   font-family: "Quicksand", sans-serif; }
 
@@ -26,6 +26,7 @@ body {
     background-color: white;
     color: black;
   }
+  #iframe-popup { background-color: white; }
 }
 
 a { text-decoration: none; }
@@ -91,12 +92,11 @@ picture img {
   padding: 20px;
   display: none;
   position: fixed;
-  background-color: white; }
+  background-color: var(--background); }
 
   #iframe-popup iframe {
     width: 100%;
-    height: 100%;
-  }
+    height: 100%; }
 
   #iframe-popup > .close {
     top: 10px;
@@ -218,7 +218,7 @@ picture img {
   padding: 3em 2em 2em;
   position: relative;
   color: inherit;
-  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  border-left: 2px solid var(--text-color-normal);
 }
 .timeline-item p {
   font-size: 1rem;
@@ -242,26 +242,26 @@ picture img {
   left: -7px;
   border-radius: 10px;
   content: "";
-  border: 2px solid rgba(0, 0, 0, 0.3);
-  background: white;
+  border: 2px solid var(--text-color-highlight);
+  background: var(--text-color-normal);
 }
 .timeline-item:last-child {
   -o-border-image: -o-linear-gradient(
       top,
-      rgba(0, 0, 0, 0.3) 60%,
-      rgba(0, 0, 0, 0)
+      var(--text-color-normal) 60%,
+      var(--text-color-normal)
     )
     1 100%;
   border-image: -webkit-gradient(
       linear,
       left top, left bottom,
-      color-stop(60%, rgba(0, 0, 0, 0.3)),
+      color-stop(60%, var(--text-color-normal)),
       to(rgba(0, 0, 0, 0))
     )
     1 100%;
   border-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.3) 60%,
+      var(--text-color-normal) 60%,
       rgba(0, 0, 0, 0)
     )
     1 100%;
@@ -278,20 +278,20 @@ picture img {
   text-align: center;
   -o-border-image: -o-linear-gradient(
       bottom,
-      rgba(0, 0, 0, 0.3) 60%,
+      var(--text-color-normal) 60%,
       rgba(0, 0, 0, 0)
     )
     1 100%;
      border-image: -webkit-gradient(
       linear,
       left bottom, left top,
-      color-stop(60%, rgba(0, 0, 0, 0.3)),
+      color-stop(60%, var(--text-color-normal)),
       to(rgba(0, 0, 0, 0))
     )
     1 100%;
      border-image: linear-gradient(
       to top,
-      rgba(0, 0, 0, 0.3) 60%,
+      var(--text-color-normal) 60%,
       rgba(0, 0, 0, 0)
     )
     1 100%;
@@ -995,38 +995,16 @@ body {
 }
 
 /*MEDIA QUERIES - NAV BAR*/
-@media screen and (min-width: 2200px) {
-  .codepen-embed-div {
-    width: 795px;
-    position: relative;
-    margin: -1000px auto 500px auto;
-    -webkit-transform: scale(1, 1);
-        -ms-transform: scale(1, 1);
-            transform: scale(1, 1);
-  }
-}
-@media screen and (max-width: 1720px) {
-  .codepen-embed-div {
-    width: 795px;
-    position: relative;
-    margin: -1000px auto 500px auto;
-    -webkit-transform: scale(1, 1);
-        -ms-transform: scale(1, 1);
-            transform: scale(1, 1);
-  }
-}
 @media screen and (max-width: 1600px) {
 
 }
 @media screen and (max-width: 1300px) {
   .intro-text {
     font-size: 7em;
-    margin: -8em 0 0 0;
   }
   .intro-about {
     max-width: 80%;
     font-size: 2.35em;
-    margin: -8em auto 3em auto;
   }
   .codepen-embed-div {
     width: 795px;
@@ -1040,12 +1018,10 @@ body {
 @media screen and (max-width: 1024px) {
   .intro-text {
     font-size: 5em;
-    margin: -8.5em 0 0 0;
   }
   .intro-about {
     max-width: 80%;
     font-size: 1.9em;
-    margin: -8em auto 3em auto;
   }
   .codepen-embed-div {
     width: 795px;
@@ -1141,12 +1117,10 @@ body {
 @media screen and (max-width: 768px) {
   .intro-text {
     font-size: 4em;
-    margin: -9em 0 0 0;
   }
   .intro-about {
     max-width: 80%;
     font-size: 1.7em;
-    margin: -7em auto 2em auto;
   }
   .social {
     right: 0px;
@@ -1156,23 +1130,19 @@ body {
 @media screen and (max-width: 640px) {
   .intro-text {
     font-size: 3em;
-    margin: -10em 0 0 0;
   }
   .intro-about {
     max-width: 80%;
     font-size: 1.4em;
-    margin: -8em auto 4em auto;
   }
 }
 @media screen and (max-width: 585px) {
   .intro-text {
     font-size: 2.5em;
-    margin: -11em 0 0 0;
   }
   .intro-about {
     max-width: 80%;
     font-size: 1.3em;
-    margin: -8em auto 4em auto;
   }
   .timeline-item:first-child {
     font-size: 26px;
@@ -1184,12 +1154,10 @@ body {
 @media screen and (max-width: 430px) {
   .intro-text {
     font-size: 3em;
-    margin: -7.8em 0 0 0;
   }
   .intro-about {
     max-width: 90%;
     font-size: 1.25em;
-    margin: -7em auto 1em auto;
   }
   .timeline-item h1 {
     font-size: 26px;
@@ -1235,12 +1203,10 @@ body {
 @media screen and (max-width: 375px) {
   .intro-text {
     font-size: 2em;
-    margin: -9em 0 0 0;
   }
   .intro-about {
     max-width: 80%;
     font-size: 1em;
-    margin: -7.4em auto 1.5em auto;
   }
   .timeline-item:first-child {
     font-size: 32px;
