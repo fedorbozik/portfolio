@@ -11,6 +11,8 @@ html {
   --text-color-richer: black;
   --text-color-highlight: black;
 
+  --link-color: hsl(210, 90%, 70%);
+
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 
@@ -20,6 +22,8 @@ html[data-theme='light'] {
   --text-color-light: black;
   --text-color-richer: black;
   --text-color-highlight: black;
+
+  --link-color: hsl(210, 90%, 70%);
 }
 
 html[data-theme='dark'] {
@@ -28,6 +32,13 @@ html[data-theme='dark'] {
   --text-color-light: hsl(210, 15%, 35%);
   --text-color-richer: hsl(210, 50%, 72%);
   --text-color-highlight: hsl(25, 70%, 45%);
+
+  --link-color: hsl(210, 90%, 70%);
+  --accent-color: hsl(25, 100%, 70%);
+  --error-color: rgb(240, 50, 50);
+
+  --button-background: hsl(210, 63%, 43%);
+  --button-text-color: black;
 }
 
 body {
@@ -43,6 +54,13 @@ body {
     --text-color-light: hsl(210, 15%, 35%);
     --text-color-richer: hsl(210, 50%, 72%);
     --text-color-highlight: hsl(25, 70%, 45%);
+
+    --link-color: hsl(210, 90%, 70%);
+    --accent-color: hsl(25, 100%, 70%);
+    --error-color: rgb(240, 50, 50);
+
+    --button-background: hsl(210, 63%, 43%);
+    --button-text-color: black;
   }
 }
 
@@ -103,7 +121,12 @@ body {
     display: block;
   }
 
-a { text-decoration: none; }
+a {
+  text-decoration: none;
+  color: var(--link-color);
+  transition: color .1s ease-in-out; }
+
+  a:hover { color: var(--accent-color); }
 
 strong,
 h1 { font-weight: 700; }
@@ -133,9 +156,12 @@ picture img {
 }
 
 .fancy-link {
-  color: #00aff0;
   cursor: pointer;
-  position: relative; }
+  position: relative;
+  color: var(--link-color);
+  transition: color .1s ease-in-out; }
+
+  .fancy-link:hover { color: var(--accent-color); }
 
 .point-left-emoji::after {
   content: "👈";

@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <workItem from="1550669996592" duration="13292000" />
       <workItem from="1552481410352" duration="802000" />
       <workItem from="1552590763279" duration="1254000" />
-      <workItem from="1581492614710" duration="31095000" />
+      <workItem from="1581492614710" duration="32306000" />
     </task>
     <task id="LOCAL-00001" summary="messenger social button connection removed">
       <created>1538391283811</created>
@@ -253,14 +252,20 @@
       <option name="project" value="LOCAL" />
       <updated>1581576127956</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Update html, interactions, light and dark theme">
+      <created>1581606547069</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1581606547069</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added skype connection with corresponding color" />
     <MESSAGE value="new bg video added" />
     <MESSAGE value="updated some skills info and other minor details" />
     <MESSAGE value="video playback bg img removed" />
@@ -285,24 +290,26 @@
     <MESSAGE value="Update major redesign" />
     <MESSAGE value="Add dark mode support + css vars" />
     <MESSAGE value="Update style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update style" />
+    <MESSAGE value="Update html, interactions, light and dark theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update html, interactions, light and dark theme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3120" y="217" key="#HTML" timestamp="1581492923707">
       <screen x="2560" y="23" width="1920" height="1057" />
     </state>
     <state x="3120" y="217" key="#HTML/2560.23.1920.1057/0.23.2560.1367@2560.23.1920.1057" timestamp="1581492923707" />
-    <state x="3131" y="141" key="CommitChangelistDialog2" timestamp="1581576127812">
+    <state x="3131" y="141" key="CommitChangelistDialog2" timestamp="1581606546934">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
-    <state x="3131" y="141" key="CommitChangelistDialog2/2560.0.1920.1080/0.0.2560.1440@2560.0.1920.1080" timestamp="1581576127812" />
-    <state x="3120" y="280" key="Vcs.Push.Dialog.v2" timestamp="1581576129243">
+    <state x="3131" y="141" key="CommitChangelistDialog2/2560.0.1920.1080/0.0.2560.1440@2560.0.1920.1080" timestamp="1581606546934" />
+    <state x="3120" y="280" key="Vcs.Push.Dialog.v2" timestamp="1581606553927">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
-    <state x="3120" y="280" key="Vcs.Push.Dialog.v2/2560.0.1920.1080/0.0.2560.1440@2560.0.1920.1080" timestamp="1581576129243" />
-    <state x="3325" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581492753252">
-      <screen x="2560" y="23" width="1920" height="1057" />
+    <state x="3120" y="280" key="Vcs.Push.Dialog.v2/2560.0.1920.1080/0.0.2560.1440@2560.0.1920.1080" timestamp="1581606553927" />
+    <state x="3325" y="462" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581606549196">
+      <screen x="2560" y="0" width="1920" height="1080" />
     </state>
+    <state x="3325" y="462" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.1920.1080/0.0.2560.1440@2560.0.1920.1080" timestamp="1581606549196" />
     <state x="3325" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.23.1920.1057/0.23.2560.1367@2560.23.1920.1057" timestamp="1581492753252" />
   </component>
 </project>
