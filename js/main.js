@@ -13,27 +13,103 @@ function processSubmitEmailRequest() {
 
 function createGameIframe (iframePopup) {
     let iframe = document.createElement('iframe');
+    iframe.id = "if";
     iframe.frameborder = '0';
     iframe.src = 'https://codepen.io/bozik/embed/wjdKKM?height=600&theme-id=dark&default-tab=result';
     iframePopup.prepend(iframe);
 };
 
+function createExpIframe (iframePopup) {
+    let iframe = document.createElement('iframe');
+    iframe.id = "if";
+    iframe.frameborder = '0';
+    iframe.src = 'https://web.archive.org/web/20190117140809/https://exponea.com/online-retail-formula/';
+    iframePopup.prepend(iframe);
+};
+
+function createExp2Iframe (iframePopup) {
+    let iframe = document.createElement('iframe');
+    iframe.id = "if";
+    iframe.frameborder = '0';
+    iframe.src = 'https://web.archive.org/web/20190117141027/https://exponea.com/nrf-bigshow/';
+    iframePopup.prepend(iframe);
+};
+
+
 function removeIframe () {
     $("#iframe-popup iframe").remove();
 };
 
-$( document ).ready(function() {
-    console.log( "ready!" );
+function toggleBodyOverflow() {
+  if (document.body.style.overflow !== "hidden") {
+      document.body.style.overflow = "hidden";
+  } else {
+      document.body.style.overflow = "initial";
+  }
+};
 
+function iframeReady(overlay) {
+    $('#if').on( 'load', function() {
+        // code will run after iframe has finished loading
+        overlay.removeClass("active");
+    } );
+}
+
+function switchTheme() {
+    if (document.documentElement.getAttribute("data-theme") == "") {
+        if (document.documentElement.getAttribute("data-theme") !== "light") {
+            localStorage.setItem('theme', 'light');
+            document.documentElement.setAttribute('data-theme', 'light');
+        } else {
+            localStorage.setItem('theme', 'dark');
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    } else {
+        if (document.documentElement.getAttribute("data-theme") !== "light") {
+            localStorage.setItem('theme', 'light');
+            document.documentElement.setAttribute('data-theme', 'light');
+        } else {
+            localStorage.setItem('theme', 'dark');
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    }
+}
+
+$( document ).ready(function() {
     let iframePopup = $("#iframe-popup");
+    let overlay = $("#iframe-overlay");
 
     // Game popup handler
     $("#game").click(function () {
+        toggleBodyOverflow();
+        overlay.toggleClass("active");
         iframePopup.fadeIn(200);
         createGameIframe(iframePopup);
+        iframeReady(overlay);
     });
 
+    // Exp poup handler
+    $("#exp").click(function () {
+        toggleBodyOverflow();
+        overlay.toggleClass("active");
+        iframePopup.fadeIn(200);
+        createExpIframe(iframePopup);
+        iframeReady(overlay);
+    });
+
+    // Exp2 poup handler
+    $("#exp2").click(function () {
+        toggleBodyOverflow();
+        overlay.toggleClass("active");
+        iframePopup.fadeIn(200);
+        createExp2Iframe(iframePopup);
+        iframeReady(overlay);
+    });
+
+
+    // Close popup handler
     $(".close").click(function () {
+        toggleBodyOverflow();
         iframePopup.fadeOut(200);
         removeIframe();
     });

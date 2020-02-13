@@ -139,7 +139,7 @@
 
 
   <section id="experience-section">
-    <div class="container code-background">
+    <div class="container">
       <div class="experience">
         <div class="timeline-item">
           <h1>My experience</h1>
@@ -179,13 +179,10 @@
                 on a daily basis
               </p>
             </li>
-            <li>
-              <p>
-                If you want more information about this, please check my
-                LinkedIn profile for more information and references
-              </p>
-            </li>
           </ul>
+          <p>See a page of a project I worked on by <span class="fancy-link point-left-emoji" id="exp">clicking&nbsp;here</span></p>
+          <p>See one more page by <span class="fancy-link point-left-emoji" id="exp2">clicking&nbsp;here</span></p>
+          <p>For more, please see my LinkedIn profile</p>
         </div>
         <div class="timeline-item" date-is="July to October 2018">
           <h1>Summer Internship at AT&amp;T as a Web design Engineer</h1>
@@ -281,7 +278,7 @@
             learning how to build interactive applications and how to interact
             with them, and learning JavaScript basically from scratch
           </p>
-          <p>You can see the game by <span class="fancy-link point-left-emoji" id="game">clicking here</span></p>
+          <p>You can see the game by <span class="fancy-link point-left-emoji" id="game">clicking&nbsp;here</span></p>
         </div>
       </div>
     </div>
@@ -452,6 +449,9 @@
       class="social__button codepen"
   ><i class="fab fa-codepen"></i
   ></a>
+  <a id="theme" target="_blank" class="social__button mail" onclick="switchTheme()">
+    <i class="far fa-lightbulb"></i>
+  </a>
 </div>
 
 <footer>
@@ -461,6 +461,14 @@
 </footer>
 
 <div id="iframe-popup">
+  <div id="iframe-overlay">
+    <div class="spinner-box">
+      <div class="circle-border">
+        <div class="circle-core"></div>
+      </div>
+    </div>
+  </div>
+
   <div class="close"><i class="fas fa-window-close"></i></div>
 </div>
 
