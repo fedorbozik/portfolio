@@ -796,7 +796,6 @@ textarea {
     line-height: 30px;
     width: 30px;
     font-size: 15px;
-    color: #000;
     z-index: 2;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -815,8 +814,6 @@ textarea {
     transition: 0.3s;
     top: 0;
     left: 50%; }
-
-  .social__button:hover i { color: #fff; }
 
   .social__button:hover::after {
     width: 30px;
