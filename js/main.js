@@ -53,7 +53,7 @@ function iframeReady(overlay) {
         // code will run after iframe has finished loading
         overlay.removeClass("active");
     } );
-}
+};
 
 function switchTheme() {
     if (document.documentElement.getAttribute("data-theme") == "") {
@@ -73,11 +73,9 @@ function switchTheme() {
             document.documentElement.setAttribute('data-theme', 'dark');
         }
     }
-}
+};
 
-$( document ).ready(function() {
-
-
+$(document).ready(function() {
     (function (h, o, t, j, a, r) {
         h.hj =
             h.hj ||
@@ -91,9 +89,6 @@ $( document ).ready(function() {
         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
     })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-
-
-
 
     let iframePopup = $("#iframe-popup");
     let overlay = $("#iframe-overlay");
