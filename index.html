@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Portfolio | Fedor Božík</title>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous"/>
+
+  <title>Portfolio - Web Developer | Fedor Božík</title>
+  <meta name="description" content="Personal web developer portfolio of Fedor Božík"/>
+  <meta name="keywords" content="web developer, frontend, developer, html, css, js, html5, css3, personal, portfolio, web portfolio">
+  <meta name="copyright" content="(c) 2019 - 2020 Fedor Božík"/>
+  <meta name="author" content="Fedor Božík"/>
+  <meta name="robots" content="noindex,nofollow"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" media="print" onload="this.media='all'"/>
+  <link rel="stylesheet" href="css/all.min.css" media="print" onload="this.media='all'"/>
   <link rel="stylesheet" href="css/style.css"/>
 </head>
 
@@ -77,26 +84,16 @@
     <div class="intro">
       <div class="container">
         <picture>
-          <source
-              media="(max-width: 640px)"
-              srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-640x384.jpeg?v=1581426319551"
-          />
-          <source
-              media="(max-width: 1280px)"
-              srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-1280x768.jpeg?v=1581426320233"
-          />
-          <source
-              media="(max-width: 1920px)"
-              srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-1920x1153.jpeg?v=1581426319490"
-          />
-          <source
-              media="(min-width: 3840px)"
-              srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-4102x2464.jpeg?v=1581426319750"
-          />
-          <img
-              src="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-4102x2464.jpeg?v=1581426319750"
-              alt="intro-image"
-          />
+          <source media="(max-width: 640px)"
+              srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-640x384.jpeg?v=1581426319551"/>
+          <source media="(max-width: 1280px)"
+              srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-1280x768.jpeg?v=1581426320233"/>
+          <source media="(max-width: 1920px)"
+              srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-1920x1153.jpeg?v=1581426319490"/>
+          <source media="(min-width: 3840px)"
+              srcset="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-4102x2464.jpeg?v=1581426319750"/>
+          <img src="https://cdn.glitch.com/6f673418-6ff4-4484-b9c4-3970d40e8fa3%2Fmacbook-pro-desk-4102x2464.jpeg?v=1581426319750"
+              alt="intro-image"/>
         </picture>
 
         <div class="text-wrap">
@@ -422,7 +419,7 @@
         class="social__button codepen"
     ><i class="fab fa-codepen"></i
     ></a>
-    <a id="theme" target="_blank" class="social__button mail" onclick="switchTheme()">
+    <a id="theme" class="social__button mail" onclick="switchTheme()">
       <i class="far fa-lightbulb"></i>
     </a>
   </div>
