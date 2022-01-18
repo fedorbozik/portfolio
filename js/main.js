@@ -35,6 +35,14 @@ function createExp2Iframe (iframePopup) {
     iframePopup.prepend(iframe);
 };
 
+function createBuIframe (iframePopup) {
+    let iframe = document.createElement('iframe');
+    iframe.id = "if";
+    iframe.frameborder = '0';
+    iframe.src = 'https://web.archive.org/web/20220105175224/https:/exploring.buckleup.sk/en/eremote-control-clm-presentation-remotely';
+    iframePopup.prepend(iframe);
+};
+
 
 function removeIframe () {
     $("#iframe-popup iframe").remove();
@@ -117,6 +125,15 @@ $(document).ready(function() {
         overlay.toggleClass("active");
         iframePopup.fadeIn(200);
         createExp2Iframe(iframePopup);
+        iframeReady(overlay);
+    });
+
+    // Bu poup handler
+    $("#bu").click(function () {
+        toggleBodyOverflow();
+        overlay.toggleClass("active");
+        iframePopup.fadeIn(200);
+        createBuIframe(iframePopup);
         iframeReady(overlay);
     });
 
