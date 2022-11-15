@@ -51,6 +51,30 @@ function createBu2Iframe (iframePopup) {
     iframePopup.prepend(iframe);
 };
 
+function createBu3Iframe (iframePopup) {
+    let iframe = document.createElement('iframe');
+    iframe.id = "if";
+    iframe.frameborder = '0';
+    iframe.src = 'https://web.archive.org/web/20220105175237/https://exploring.buckleup.sk/en/upscale-clm-presentation-with-interactive-puzzle';
+    iframePopup.prepend(iframe);
+};
+
+function createBu4Iframe (iframePopup) {
+    let iframe = document.createElement('iframe');
+    iframe.id = "if";
+    iframe.frameborder = '0';
+    iframe.src = 'https://web.archive.org/web/20220105172627/https:/www.act4yourheart.com/se';
+    iframePopup.prepend(iframe);
+};
+
+function createBu5Iframe (iframePopup) {
+    let iframe = document.createElement('iframe');
+    iframe.id = "if";
+    iframe.frameborder = '0';
+    iframe.src = 'https://web.archive.org/web/20220105174210/https:/www.pribehhudby.com/';
+    iframePopup.prepend(iframe);
+};
+
 
 function removeIframe () {
     $("#iframe-popup iframe").remove();
@@ -137,6 +161,33 @@ $(document).ready(function() {
         overlay.toggleClass("active");
         iframePopup.fadeIn(200);
         createBu2Iframe(iframePopup);
+        iframeReady(overlay);
+    });
+
+    // Bu3 poup handler
+    $("#bu3").click(function () {
+        toggleBodyOverflow();
+        overlay.toggleClass("active");
+        iframePopup.fadeIn(200);
+        createBu3Iframe(iframePopup);
+        iframeReady(overlay);
+    });
+
+    // Bu4 poup handler
+    $("#bu4").click(function () {
+        toggleBodyOverflow();
+        overlay.toggleClass("active");
+        iframePopup.fadeIn(200);
+        createBu4Iframe(iframePopup);
+        iframeReady(overlay);
+    });
+
+    // Bu5 poup handler
+    $("#bu5").click(function () {
+        toggleBodyOverflow();
+        overlay.toggleClass("active");
+        iframePopup.fadeIn(200);
+        createBu5Iframe(iframePopup);
         iframeReady(overlay);
     });
 
