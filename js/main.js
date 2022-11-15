@@ -43,6 +43,14 @@ function createBuIframe (iframePopup) {
     iframePopup.prepend(iframe);
 };
 
+function createBu2Iframe (iframePopup) {
+    let iframe = document.createElement('iframe');
+    iframe.id = "if";
+    iframe.frameborder = '0';
+    iframe.src = 'https://web.archive.org/web/20220105162003/https://www.schuelke4office.at/en';
+    iframePopup.prepend(iframe);
+};
+
 
 function removeIframe () {
     $("#iframe-popup iframe").remove();
@@ -123,6 +131,14 @@ $(document).ready(function() {
         iframeReady(overlay);
     });
 
+    // Bu2 poup handler
+    $("#bu2").click(function () {
+        toggleBodyOverflow();
+        overlay.toggleClass("active");
+        iframePopup.fadeIn(200);
+        createBu2Iframe(iframePopup);
+        iframeReady(overlay);
+    });
 
     // Close popup handler
     $(".close").click(function () {
